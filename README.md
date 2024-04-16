@@ -71,9 +71,7 @@ curl --location 'http://localhost:8080/carparks/update-availability'
 
 ### Find the nearest car parks
 ```shell
-curl --location 'http://localhost:8080/carparks/nearest?latitude=100.89188186642683&longitude=0.34776178103640865&page=1&per_page=10' \
---header 'latitude: 26367.5806' \
---header 'longitude: 26367.5806'
+curl --location 'http://localhost:8080/carparks/nearest?latitude=100.89188186642683&longitude=0.34776178103640865&page=1&per_page=6'
 ```
 
 Example response
